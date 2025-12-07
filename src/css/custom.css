@@ -1,0 +1,69 @@
+:root {
+  /* Primary brand (Lavender Indigo) */
+  --ifm-color-primary: #6366f1;          /* indigo-500 */
+  --ifm-color-primary-dark: #4f46e5;
+  --ifm-color-primary-darker: #4338ca;
+  --ifm-color-primary-darkest: #3730a3;
+
+  --ifm-color-primary-light: #818cf8;
+  --ifm-color-primary-lighter: #a5b4fc;
+  --ifm-color-primary-lightest: #e0e7ff;
+
+  /* Background & surfaces */
+  --ifm-background-color: #f8fafc;        /* off-white */
+  --ifm-background-surface-color: #ffffff;
+
+  /* Text */
+  --ifm-font-color-base: #0f172a;
+  --ifm-heading-color: #020617;
+
+  /* Links */
+  --ifm-link-color: #4f46e5;
+  --ifm-link-hover-color: #6366f1;
+
+  /* Code */
+  --ifm-code-background: #eef2ff;
+  --ifm-code-font-size: 95%;
+
+  /* UI polish */
+  --ifm-global-radius: 12px;
+  --ifm-button-border-radius: 999px;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffffcc;
+  --ifm-navbar-shadow: none;
+}
+[data-theme='dark'] {
+  /* Primary glow (Electric Violet) */
+  --ifm-color-primary: #a78bfa;          /* violet-400 */
+  --ifm-color-primary-dark: #8b5cf6;
+  --ifm-color-primary-darker: #7c3aed;
+  --ifm-color-primary-darkest: #6d28d9;
+
+  --ifm-color-primary-light: #c4b5fd;
+  --ifm-color-primary-lighter: #ddd6fe;
+  --ifm-color-primary-lightest: #ede9fe;
+
+  /* Backgrounds */
+  --ifm-background-color: #0b0618;       /* deep purple-black */
+  --ifm-background-surface-color: #120a2a;
+
+  /* Text */
+  --ifm-font-color-base: #e5e7eb;
+  --ifm-heading-color: #faf5ff;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #0b0618cc;
+}
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(124, 58, 237, 0.12),
+    rgba(2, 6, 23, 0.95)
+  );
+  border: 1px solid rgba(167, 139, 250, 0.15);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.navbar {
+  backdrop-filter: blur(14px);
+}
