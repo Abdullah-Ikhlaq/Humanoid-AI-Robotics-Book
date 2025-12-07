@@ -63,10 +63,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Physical AI & Humanoid Robotics Book',
-        logo: {
-          alt: 'My Site Logo',
-          src: '/img/logo.png',
-        },
         items: [
           {
             type: 'docSidebar',
