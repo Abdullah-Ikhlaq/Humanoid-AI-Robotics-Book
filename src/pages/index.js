@@ -1,3 +1,4 @@
+import Root from '@theme/Root';
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -50,10 +51,12 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout
-      title="Physical AI & Humanoid Robotics"
-      description="A practical guide to bridging AI with real-world robotic systems">
-      <HomepageHeader />
-    </Layout>
+    <Root> 
+      <Layout
+        title="Physical AI & Humanoid Robotics"
+        description="A practical guide to bridging AI with real-world robotic systems">
+        <HomepageHeader />
+      </Layout>
+    </Root>
   );
 }
