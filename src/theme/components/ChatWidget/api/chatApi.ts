@@ -8,7 +8,8 @@
 //   ? 'https://<your-production-url>'
 //   : 'http://localhost:8000';
 
-const API_BASE_URL ='https://rag-chatbot-ygch.onrender.com';
+// const API_BASE_URL ='https://rag-chatbot-ygch.onrender.com';
+const API_BASE_URL ='http://localhost:8000';
 
 export interface ChatRequest {
   message: string;
